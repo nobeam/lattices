@@ -32,23 +32,10 @@
         "TRH": ["DK", "Q5T", "DQ", "S4T", "DQ", "Q4T", "DS3", "S3T", "DQ", "Q3T", "DB"],
         "DLH": ["DB", "Q3D", "DQ", "S3D", "DS3", "Q4D", "DQ", "S4D", "DL"],
         "DRH": ["DL", "S4D", "DQ", "Q4D", "DS3", "S3D", "DQ", "Q3D", "DB"],
-        "D1A": ["ACHRH", "B", "DLH"],
-        "D1B": ["DRH", "B", "ACHLH"],
-        "T1": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D2": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
-        "T2": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D3": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
-        "T3": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D4": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
-        "T4": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D5": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
-        "T5": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D6": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
-        "T6": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D7": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
-        "T7": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D8": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
-        "T8": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"]
+        "DL": ["ACHRH", "B", "DLH"],
+        "DR": ["DRH", "B", "ACHLH"],
+        "T": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
+        "D": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
     },
-    "lattice": ["D1B", "T1", "D2", "T2", "D3", "T3", "D4", "T4", "D5", "T5", "D6", "T6", "D7", "T7", "D8", "T8", "D1A"]
+    "lattice": ["DR", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "DL"]
 }
