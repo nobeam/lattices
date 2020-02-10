@@ -30,11 +30,11 @@
         "ACHRH": ["S1", "DS1", "Q1", "DQ1", "S2", "DS2", "Q2", "DQ2"],
         "STRTDLH": ["DB", "Q3D", "DQ", "S3D", "DS3", "Q4D", "DQ", "S4D", "DL"],
         "STRTDRH": ["DL", "S4D", "DQ", "Q4D", "DS3", "S3D", "DQ", "Q3D", "DB"],
+        "STRTTLH": ["DB", "Q3T", "DQ", "S3T", "DS3", "Q4T", "DQ", "S4T", "DQ", "Q5T", "DK"],
+        "STRTTRH": ["DK", "Q5T", "DQ", "S4T", "DQ", "Q4T", "DS3", "S3T", "DQ", "Q3T", "DB"],
         "DLH": ["ACHRH", "B", "STRTDLH"],
         "DRH": ["STRTDRH", "B", "ACHLH"],
         "D": ["DLH", "DRH"],
-        "STRTTLH": ["DB", "Q3T", "DQ", "S3T", "DS3", "Q4T", "DQ", "S4T", "DQ", "Q5T", "DK"],
-        "STRTTRH": ["DK", "Q5T", "DQ", "S4T", "DQ", "Q4T", "DS3", "S3T", "DQ", "Q3T", "DB"],
         "T": ["ACHRH", "B", "STRTTLH", "STRTTRH", "B", "ACHLH"]
     },
     "lattice": ["DRH", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "DLH"]
