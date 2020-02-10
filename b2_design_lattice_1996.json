@@ -35,7 +35,7 @@
         "DL": ["ACHRH", "B", "DLH"],
         "DR": ["DRH", "B", "ACHLH"],
         "T": ["ACHRH", "B", "TLH", "TRH", "B", "ACHLH"],
-        "D": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"],
+        "D": ["ACHRH", "B", "DLH", "DRH", "B", "ACHLH"]
     },
     "lattice": ["DR", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "DL"]
 }
