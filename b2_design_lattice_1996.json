@@ -1,4 +1,5 @@
 {
+    "version": "1.0",
     "name": "BESSY II - Design Lattice",
     "elements": {
         "Q1": ["Quadrupole", {"length": 0.25, "k1": 2.4519}],
