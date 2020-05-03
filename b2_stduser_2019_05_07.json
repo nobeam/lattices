@@ -1,4 +1,5 @@
 {
+    "version": "1.0",
     "name": "BESSY II Standard User Mode 2019/05/07",
     "elements": {
         "QIT6": ["Quadrupole", {"length": 0.122, "k1": -1.0791894671160693}],
