@@ -1,5 +1,7 @@
 {
     "version": "2.0",
+    "title": "BESSY II Standard User Mode 2019/05/07",
+    "root": "RING",
     "elements": {
         "QIT6": ["Quadrupole", {"length": 0.122, "k1": -1.0791894671160693}],
         "Q1D": ["Quadrupole", {"length": 0.25, "k1": 2.4412502258740236}],
@@ -85,7 +87,6 @@
         "DQ5T6": ["Drift", {"length": 2.2976}],
         "DQIT6": ["Drift", {"length": 2.3644}]
     },
-    "title": "BESSY II Standard User Mode 2019/05/07",
     "lattices": {
         "ACHRH": ["S1", "DS1", "Q1D", "DQ1", "S2", "DS2", "Q2D", "DQ2"],
         "ACHLH": ["DQ2", "Q2D", "DS2", "S2", "DQ1", "Q1D", "DS1", "S1"],
@@ -138,7 +139,6 @@
         "D8": ["ACHRH", "B", "D8LH", "D8RH", "B", "ACHLH"],
         "T8": ["ACHRH", "B", "T8LH", "T8RH", "B", "ACHLH"],
         "D1L": ["ACHRH", "B", "D1LH"],
-        "__MAIN__": ["D1R", "T1", "D2", "T2", "D3", "T3", "D4", "T4", "D5", "T5", "D6", "T6", "D7", "T7", "D8", "T8", "D1L"]
-    },
-    "root": "__MAIN__"
+        "RING": ["D1R", "T1", "D2", "T2", "D3", "T3", "D4", "T4", "D5", "T5", "D6", "T6", "D7", "T7", "D8", "T8", "D1L"]
+    }
 }

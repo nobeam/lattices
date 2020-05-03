@@ -1,5 +1,7 @@
 {
     "version": "2.0",
+    "title": "BESSY II - Design Lattice",
+    "root": "RING",
     "elements": {
         "Q1": ["Quadrupole", {"length": 0.25, "k1": 2.4519}],
         "Q2": ["Quadrupole", {"length": 0.2, "k1": -1.89757}],
@@ -25,7 +27,6 @@
         "DK": ["Drift", {"length": 2.453}],
         "B": ["Dipole", {"length": 0.855, "angle": 0.196349540849362, "e1": 0.09817477042, "e2": 0.09817477042}]
     },
-    "title": "BESSY II - Design Lattice",
     "lattices": {
         "ACHLH": ["DQ2", "Q2", "DS2", "S2", "DQ1", "Q1", "DS1", "S1"],
         "ACHRH": ["S1", "DS1", "Q1", "DQ1", "S2", "DS2", "Q2", "DQ2"],
@@ -37,7 +38,6 @@
         "DRH": ["STRTDRH", "B", "ACHLH"],
         "D": ["DLH", "DRH"],
         "T": ["ACHRH", "B", "STRTTLH", "STRTTRH", "B", "ACHLH"],
-        "__MAIN__": ["DRH", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "DLH"]
-    },
-    "root": "__MAIN__"
+        "RING": ["DRH", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "D", "T", "DLH"]
+    }
 }
